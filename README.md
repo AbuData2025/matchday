@@ -4,6 +4,8 @@ A personal football performance tracker — log matches, track your season stats
 and keep a history of every game you play. Built for two accounts on one shared
 team, each with their own club-colour theme.
 
+**Technical scope:** Supabase Postgres with row-level security for per-account data isolation, custom email/password + Google OAuth flows, and a per-user theming system with a live colour picker.
+
 ## Why this exists
 
 Built after realising there was no easy way to track 5-a-side performances over
